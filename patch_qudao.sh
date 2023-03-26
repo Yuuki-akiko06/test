@@ -6,13 +6,13 @@
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
     # 这个链接是oppo下载的,应该是9游,其他渠道自行修改直链
-    #url="https://download.cowcs.com/cowtransfer/cowtransfer/84809/ad0f1ab75aa64a12a79ee2fe6e8151ab.apk?auth_key=1679852296-fcd7753f20744f0e930518fe98c9504f-0-5a3b56cdd14e4ef8713064f926668eca&biz_type=1&business_code=COW_TRANSFER&channel_code=COW_CN_WEB&response-content-disposition=attachment%3B%20filename%3D23214782.apk%3Bfilename*%3Dutf-8%27%2723214782.apk&user_id=1023565177469684809&x-verify=1"
+    #url="https://github.com/Yuuki-akiko06/test/releases/download/latest/23214782.apk"
     #这个链接是oppo
-    #url="https://download.cowcs.com/cowtransfer/cowtransfer/84809/ad0f1ab75aa64a12a79ee2fe6e8151ab.apk?auth_key=1679852296-fcd7753f20744f0e930518fe98c9504f-0-5a3b56cdd14e4ef8713064f926668eca&biz_type=1&business_code=COW_TRANSFER&channel_code=COW_CN_WEB&response-content-disposition=attachment%3B%20filename%3D23214782.apk%3Bfilename*%3Dutf-8%27%2723214782.apk&user_id=1023565177469684809&x-verify=1"
+    #url="https://github.com/Yuuki-akiko06/test/releases/download/latest/23214782.apk"
     # 使用curl命令下载apk文件
     #curl -o blhx.apk  $url
     
-    url="https://download.cowcs.com/cowtransfer/cowtransfer/84809/ad0f1ab75aa64a12a79ee2fe6e8151ab.apk?auth_key=1679852296-fcd7753f20744f0e930518fe98c9504f-0-5a3b56cdd14e4ef8713064f926668eca&biz_type=1&business_code=COW_TRANSFER&channel_code=COW_CN_WEB&response-content-disposition=attachment%3B%20filename%3D23214782.apk%3Bfilename*%3Dutf-8%27%2723214782.apk&user_id=1023565177469684809&x-verify=1"
+    url="https://github.com/Yuuki-akiko06/test/releases/download/latest/23214782.apk"
     curl -o blhx.apk -L $url
     
     fi
