@@ -5,10 +5,10 @@
 # Download Azur Lane
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
-    # 这个链接是MUMU下载的,应该是9游,其他渠道自行修改直链
-    #url="https://downali.game.uc.cn/s1/2/10/20230213150150_blhx_uc_2022_11_02_18_24_01.apk?x-oss-process=udf/uc-apk,ZBHDhDR0LVBkTsK*wpLCng==afae37c2a88fd1ca&sh=10&sf=1831727323&vh=18330f93bd450707942ce0b882a0c6b2&cc=2521889677&did=217b729f8a4841dd81901816dfba551f"
-    #这个链接是当乐网
-    #url="https://res5.d.cn/4fea10ef16b7b0d5ea0f3a5ad9d3483753ab0106c1a0cdf1d67434fec122fbca9819ee365b07dae4ccbf47d02992f9785f5cc48955b4765f919e8a2ac789488082c80bca10f6617e.apk"
+    # 这个链接是oppo下载的,应该是9游,其他渠道自行修改直链
+    #url="https://download.cowcs.com/cowtransfer/cowtransfer/84809/ad0f1ab75aa64a12a79ee2fe6e8151ab.apk?auth_key=1679852296-fcd7753f20744f0e930518fe98c9504f-0-5a3b56cdd14e4ef8713064f926668eca&biz_type=1&business_code=COW_TRANSFER&channel_code=COW_CN_WEB&response-content-disposition=attachment%3B%20filename%3D23214782.apk%3Bfilename*%3Dutf-8%27%2723214782.apk&user_id=1023565177469684809&x-verify=1"
+    #这个链接是oppo
+    #url="https://download.cowcs.com/cowtransfer/cowtransfer/84809/ad0f1ab75aa64a12a79ee2fe6e8151ab.apk?auth_key=1679852296-fcd7753f20744f0e930518fe98c9504f-0-5a3b56cdd14e4ef8713064f926668eca&biz_type=1&business_code=COW_TRANSFER&channel_code=COW_CN_WEB&response-content-disposition=attachment%3B%20filename%3D23214782.apk%3Bfilename*%3Dutf-8%27%2723214782.apk&user_id=1023565177469684809&x-verify=1"
     # 使用curl命令下载apk文件
     #curl -o blhx.apk  $url
     
